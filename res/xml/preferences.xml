@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory  
+        android:title="CPU Settings">
+        
+        <ListPreference
+	     android:entries="@array/cpu_governor_list"
+	     android:entryValues="@array/cpu_governor_list_values"
+	     android:key="cpu_governor_list"
+	     android:title="CPU Governor" />
+        
+    </PreferenceCategory>
+</PreferenceScreen>

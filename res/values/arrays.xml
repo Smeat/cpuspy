@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cpu_governor_list">&lt;item&gt;1&lt;/item&gt;</array>
+    <array name="cpu_governor_list_values">&lt;item&gt;1&lt;/item&gt;</array>
+</resources>

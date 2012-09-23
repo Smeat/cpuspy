@@ -19,5 +19,6 @@
    
    <item android:id="@+id/menu_quit"
          android:title="@string/Quit"
-   />   
+   />
+   <item android:id="@+id/menu_settings" android:title="@string/Settings"></item>   
 </menu>

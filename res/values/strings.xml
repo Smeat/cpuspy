@@ -16,4 +16,6 @@
     <string name="Refresh">Refresh</string>
     <string name="EnableLogging">Enable Logging</string>
     <string name="Quit">Quit Application</string>
+    <string name="Settings">Settings</string>
+    <string name="Root_error">Unable to aquire root permissions!</string>
 </resources>

@@ -16,4 +16,5 @@
     <string name="Refresh">Aktualisieren</string>
     <string name="EnableLogging">Logging einschalten</string>
     <string name="Quit">Anwendung beenden</string>
+    <string name="Settings">Einstellungen</string>
 </resources>

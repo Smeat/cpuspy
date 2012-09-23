@@ -12,6 +12,7 @@ import java.util.List;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -152,13 +153,20 @@ public class HomeActivity extends Activity
         case R.id.menu_quit:
         	finish();
         	break;
+        case R.id.menu_settings:
+        	showSettings();
+        	break;
         }
     
         // made it
         return true;
     }
 
-    /** Generate and update all UI elements */
+    private void showSettings() {
+		startActivity(new Intent(this, SettingsActivity.class));		
+	}
+
+	/** Generate and update all UI elements */
     public void updateView() {
         /** Get the CpuStateMonitor from the app, and iterate over all states,
          * creating a row if the duration is > 0 or otherwise marking it in
